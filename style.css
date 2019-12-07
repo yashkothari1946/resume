@@ -233,6 +233,11 @@ section:not(:first-of-type) {
 #about #about-learn-more {
   display: none; }
 
+.dark-section {
+  background-color: #000;
+  margin: 0 !important;
+  padding: 6em 0; }
+
 #contact {
   background-color: #000;
   margin: 0;
@@ -392,12 +397,11 @@ footer {
 .time {
   display: inline-block;
   padding: 4px 6px;
-  background: #f8f8f8; }
+  background: #000; }
 
 .desc {
   margin: 1em 0.75em 0 0;
   font-size: 0.77777em;
-  font-style: italic;
   line-height: 1.5em; }
 
 .direction-r .desc {

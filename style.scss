@@ -261,6 +261,12 @@ section:not(:first-of-type) {
     }
 }
 
+.dark-section {
+    background-color: $pureBlack;
+    margin: 0 !important;
+    padding: 6em 0;
+}
+
 #contact {
     background-color: $pureBlack;
     margin: 0;
@@ -451,14 +457,13 @@ footer {
 .time {
     display: inline-block;
     padding: 4px 6px;
-    background: rgb(248, 248, 248);
+    background: $pureBlack;
 }
 
 .desc {
     margin: 1em 0.75em 0 0;
 
     font-size: 0.77777em;
-    font-style: italic;
     line-height: 1.5em;
 }
 
