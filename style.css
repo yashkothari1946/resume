@@ -254,6 +254,53 @@ footer {
   footer .logo {
     max-width: 3em; }
 
+.skills-logo {
+  width: 5em;
+  height: 5em;
+  margin: 0 2em;
+  display: inline-block; }
+
+.tooltip-inner {
+  background-color: #121212; }
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+#testimonials-slider {
+  min-height: 35em; }
+  #testimonials-slider .swiper-button-next,
+  #testimonials-slider .swiper-button-prev {
+    -webkit-filter: sepia(1);
+    filter: sepia(1); }
+  #testimonials-slider .swiper-pagination-bullet {
+    background: #fbf2a8; }
+  #testimonials-slider .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #a57d24; }
+  #testimonials-slider .swiper-slide div {
+    margin: 0 auto;
+    width: 60%; }
+
 @media only screen and (max-width: 767px) {
   .rw-50,
   .rw-25,
@@ -264,7 +311,12 @@ footer {
     background-image: url("./images/hero-bg-mobile.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; } }
+    background-position: center center; }
+  .skills-logo {
+    width: 3em;
+    height: 3em;
+    margin: 0 0.75em;
+    display: inline-block; } }
 
 .timeline {
   position: relative;

@@ -290,6 +290,67 @@ footer {
     }
 }
 
+.skills-logo {
+    width: 5em;
+    height: 5em;
+    margin: 0 2em;
+    display: inline-block;
+}
+
+.tooltip-inner {
+    background-color: $black;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+#testimonials-slider {
+    min-height: 35em;
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        filter: sepia(1);
+    }
+
+    .swiper-pagination-bullet {
+        background: $lightGold;
+    }
+
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: $darkGold;
+    }
+
+    .swiper-slide {
+        div {
+            margin: 0 auto;
+            width: 60%;
+        }
+    }
+}
+
 @media only screen and (max-width: 767px) {
 
     .rw-50,
@@ -304,6 +365,13 @@ footer {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+    }
+
+    .skills-logo {
+        width: 3em;
+        height: 3em;
+        margin: 0 0.75em;
+        display: inline-block;
     }
 }
 

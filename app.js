@@ -7,6 +7,10 @@ $(document).ready(() => {
         }
     });
 
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+
     $("#learn-more-button").click(() => {
         $("#learn-more-button").hide();
         $("#image-learn-more").hide();
@@ -22,6 +26,20 @@ $(document).ready(() => {
         $("#learn-more-button").fadeIn();
         $("#image-learn-more").fadeOut();
         $("#image-learn-less").fadeIn();
+    });
+
+    var testimonialsSlider = new Swiper('#testimonials-slider', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
     });
 });
 
