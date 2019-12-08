@@ -532,3 +532,15 @@ footer {
   .direction-l .desc,
   .direction-r .desc {
     margin: 1em 4em 0 4em; } }
+
+.quote-hide {
+  display: none;
+}
+.quote-box {
+    text-align: center;
+    padding: 2em;
+}
+cite {
+    font-size: 80%;
+    color: #999;
+}

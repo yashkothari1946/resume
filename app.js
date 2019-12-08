@@ -16,17 +16,24 @@ $(document).ready(() => {
         $("#image-learn-more").hide();
         $("#about-learn-more").fadeIn();
         $("#learn-less-button").fadeIn();
-        $("#image-learn-less").fadeOut();
-        $("#image-learn-more").fadeIn();
     });
 
     $("#learn-less-button").click(() => {
         $("#learn-less-button").fadeOut();
         $("#about-learn-more").fadeOut();
         $("#learn-more-button").fadeIn();
-        $("#image-learn-more").fadeOut();
-        $("#image-learn-less").fadeIn();
     });
+
+    if (  $('.quote-loop').length ){
+        (function loop() {
+            $('.quote-loop').each(function() {
+                var $self = $(this);
+                $self.parent().queue(function (n) {
+                    $self.fadeIn(1000).delay(12000).fadeOut(1000, n);
+                });
+            }).parent().promise().done(loop);
+        }());
+    }
 
     var testimonialsSlider = new Swiper('#testimonials-slider', {
         slidesPerView: 1,
