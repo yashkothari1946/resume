@@ -29,7 +29,7 @@ $(document).ready(() => {
             $('.quote-loop').each(function() {
                 var $self = $(this);
                 $self.parent().queue(function (n) {
-                    $self.fadeIn(1000).delay(12000).fadeOut(1000, n);
+                    $self.fadeIn(1000).delay(5000).fadeOut(1000, n);
                 });
             }).parent().promise().done(loop);
         }());
@@ -46,7 +46,9 @@ $(document).ready(() => {
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
-        },
+        },autoplay: {
+            delay: 3000,
+          },
     });
 });
 
