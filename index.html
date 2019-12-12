@@ -2,11 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <base href="https://yashk.info/">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -14,6 +13,63 @@
     <link rel="stylesheet" href="./style.css">
 
     <title>Yash Kothari - Portfolio</title>
+    <meta name="theme-color" content="#a57d24">
+    <link rel="canonical" href="https://yashk.info/" />
+
+    <!-- Apple META -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <link rel="apple-touch-icon" href="https://yashk.info/images/favicon.png">
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="https://yashk.info/images/favicon.png" type="image/x-icon">
+
+    <!-- Meta Tag -->
+    <meta name="keywords" content="Yash Kothari, Portfolio, Skills, Career, Testimonials, Full-Stack Developer, Software Architect, NodeJS, AngularJS, Angular, ReactJS, Java, mongoDB, PostgreSQL, MySQL, Amazon AWS, Heroku, IBM cloud, Nginx, Git, MEAN JS, MERN JS, SEAN JS, Android, Redis" />
+    <meta name="description" content="I am always looking for a place where I can create something new & unique, or where I get difficult problems and explore for the best & optimize solutions to or for it. Because this is the place where you & I will get benefited the most.">
+    <meta property="og:title" content="Yash Kothari - Portfolio" />
+    <meta property="og:url" content="https://yashk.info/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://yashk.info/images/logo.png" />
+    <meta property="og:site_name" content="Yash Kothari - Portfolio" />
+    <meta property="og:description" content="I am always looking for a place where I can create something new & unique, or where I get difficult problems and explore for the best & optimize solutions to or for it. Because this is the place where you & I will get benefited the most." />
+    
+    <!--Structured Data-->
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Individual",
+          "name": "Yash Kothari",
+          "url": "https://yashk.info",
+          "logo": "https://yashk.info/images/logo.png",
+          "founders": [{
+            "@type": "Person",
+            "name": "Yash Kothari"
+          }],
+          "page" : "Portfolio",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Udaipur",
+            "postalCode": "313001",
+            "addressCountry": "India"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Personal",
+            "telephone": "[+91(911)656-0069]",
+            "email": "me@yashk.info"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/yashkothari1946" 
+            "https://www.facebook.com/ykhothari"
+            "https://www.instagram.com/essence_yash_kothari/"
+            "https://github.com/yashkothari1946"
+            "https://twitter.com/yashkothari1946"
+          ]
+        }
+    </script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154352962-1"></script>
     <script>
@@ -29,8 +85,8 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand fc-gradient" href="/">
-                <img src="./images/logo.svg" alt="Yash Logo" class="logo">Yash Kothari
+            <a class="navbar-brand fc-gradient" href="/" title="Yash Logo">
+                <img src="https://yashk.info/images/logo.svg" alt="Yash Logo" title="Yash Logo" class="logo">Yash Kothari
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
                 aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,32 +96,32 @@
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/">
+                        <a class="nav-link" href="/" title="Home">
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">
+                        <a class="nav-link" href="#about" title="about">
                             About
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">
+                        <a class="nav-link" href="#skills" title="skills">
                             Skills
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#career">
+                        <a class="nav-link" href="#career" title="Career">
                             Career
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">
+                        <a class="nav-link" href="#testimonials" title="Testimonials">
                             Testimonials
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">
+                        <a class="nav-link" href="#contact" title="Contact Us">
                             Contact
                         </a>
                     </li>
@@ -84,17 +140,20 @@
                     </h5>
 
                     <div class="hero-social-icons">
-                        <a href="https://www.linkedin.com/in/yashkothari1946" target="_blank">
+                        <a href="https://www.linkedin.com/in/yashkothari1946" target="_blank" title="LinkedIn">
                             <i class="fab fa-linkedin-in fa-fw fa-lg"></i>
                         </a>
-                        <a href="https://www.facebook.com/ykhothari" target="_blank">
+                        <a href="https://www.facebook.com/ykhothari" target="_blank" title="Facebook">
                             <i class="fab fa-facebook-f fa-fw fa-lg"></i>
                         </a>
-                        <a href="https://www.instagram.com/essence_yash_kothari/" target="_blank">
+                        <a href="https://www.instagram.com/essence_yash_kothari/" target="_blank" title="Instagram">
                             <i class="fab fa-instagram fa-fw fa-lg"></i>
                         </a>
-                        <a href="https://github.com/yashkothari1946" target="_blank">
+                        <a href="https://github.com/yashkothari1946" target="_blank" title="Github">
                             <i class="fab fa-github fa-fw fa-lg"></i>
+                        </a>
+                        <a href="https://twitter.com/yashkothari1946" target="_blank" title="Twitter">
+                            <i class="fab fa-twitter fa-fw fa-lg"></i>
                         </a>
                     </div>
                 </div>
@@ -114,7 +173,7 @@
                     <p class="rw-75">
                         I'm a full stack developer & architect, have my specialization in MEAN / MERN / SEAN
                         technologies. My work can be defined as Software Architect, technology selector, Innovator,
-                        digital influencer, and a hardcore developer in whichever company I work(ed) in.I believe in
+                        digital influencer, and a hardcore developer.I believe in
                         rapid development with concrete architectures.
                     </p>
 
@@ -142,7 +201,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 order-1 order-md-2">
-                    <img src="./images/yash.jpeg" alt="Yash Kothari" class="w-100 rounded-circle">
+                    <img src="https://yashk.info/images/yash.jpg" alt="Yash Kothari" class="w-100 rounded-circle">
                 </div>
             </div>
         </div>
@@ -199,7 +258,7 @@
                 <div class="col-md text-center text-md-left offset-0 offset-md-3">
                     <img src="https://cdn.worldvectorlogo.com/logos/git.svg" alt="Git" class="skills-logo"
                         data-toggle="tooltip" data-placement="top" title="Git">
-                    <img src="http://meanjs.org/img/icon.png" alt="MEAN / MERN / SEAN JS"
+                    <img src="https://meanjs.org/img/icon.png" alt="MEAN / MERN / SEAN JS"
                         class="skills-logo" data-toggle="tooltip" data-placement="top" title="MEAN / MERN / SEAN JS">
                     <img src="https://cdn.worldvectorlogo.com/logos/android.svg" alt="Android" class="skills-logo"
                         data-toggle="tooltip" data-placement="top" title="Android">
@@ -225,7 +284,7 @@
             <ul class="timeline">
                 <li>
                     <div class="direction-r">
-                        <a href="./panoptics" class="stretched-link"></a>
+                        <a href="./panoptics" class="stretched-link" title="Panoptic Analytics"></a>
                         <div class="flag-wrapper">
                             <span class="flag">Panoptic Analytics</span>
                         </div>
@@ -239,7 +298,7 @@
                 </li>
                 <li>
                     <div class="direction-l">
-                        <a href="./zykrr" class="stretched-link"></a>
+                        <a href="./zykrr" class="stretched-link" title="Zykrr"></a>
                         <div class="flag-wrapper">
                             <span class="flag">Zykrr</span>
                         </div>
@@ -254,7 +313,7 @@
                 </li>
                 <li>
                     <div class="direction-r">
-                        <a href="./xportmine" class="stretched-link"></a>
+                        <a href="./xportmine" class="stretched-link" title="Xportmine"></a>
                         <div class="flag-wrapper">
                             <span class="flag">Xportmine</span>
                         </div>
@@ -269,7 +328,7 @@
                 </li>
                 <li>
                     <div class="direction-l">
-                        <a href="./coreProgrammers" class="stretched-link"></a>
+                        <a href="./coreProgrammers" class="stretched-link" title="Core Programmers"></a>
                         <div class="flag-wrapper">
                             <span class="flag">Core Programmers</span>
                         </div>
@@ -309,7 +368,7 @@
                                     </p>
 
                                     <p class="mb-0">
-                                        <a href="https://www.linkedin.com/in/kanchankhera" target="_blank">
+                                        <a href="https://www.linkedin.com/in/kanchankhera" target="_blank" title="Kanchan Khera">
                                             &mdash;&ensp;Kanchan Khera
                                             <br>
                                             (Founder & CEO - Zykrr)
@@ -325,7 +384,7 @@
                                     </p>
 
                                     <p class="mb-0">
-                                        <a href="https://www.linkedin.com/in/poonam-dungerwal-967331128/" target="_blank">
+                                        <a href="https://www.linkedin.com/in/poonam-dungerwal-967331128/" target="_blank" title="Poonam Dungerwal">
                                             &mdash;&ensp;Poonam Dungerwal
                                             <br>
                                             (Founder & CEO - Xportmine)
@@ -383,14 +442,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md text-center">
-                    <a href="mailto:yashkothari1946@gmail.com">
-                        <h4 class="section-heading-big">Have something to discuss?</h4>
-                        <br>
-                        <h2 class="section-heading-big mb-0">Let's talk...</h2>
+                    <h4 class="section-heading-big">Have something to discuss?</h4>
+                    <br>
+                    <h2 class="section-heading-big mb-0">Let's talk...</h2>
 
-                        <br>
-                        <br>
-                        <i class="fas fa-envelope"></i>&ensp;yashkothari1946@gmail.com
+                    <br>
+                    <br>
+                    <a href="mailto:me@yashk.info" title="Mail Me">
+                        <i class="fas fa-envelope"></i>
                     </a>
                 </div>
             </div>
@@ -401,21 +460,24 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md">
-                    <img src="./images/logo.svg" alt="Yash Logo" class="logo">
+                    <img src="https://yashk.info/images/logo.svg" title="Yash Logo" alt="Yash Logo" class="logo">
                 </div>
                 <div class="col-md text-center text-md-right">
                     <div class="hero-social-icons">
-                        <a href="https://www.linkedin.com/in/yashkothari1946" target="_blank">
+                        <a href="https://www.linkedin.com/in/yashkothari1946" title="LinkedIn" target="_blank">
                             <i class="fab fa-linkedin-in fa-fw fa-lg"></i>
                         </a>
-                        <a href="https://www.facebook.com/ykhothari" target="_blank">
+                        <a href="https://www.facebook.com/ykhothari" title="Facebook" target="_blank">
                             <i class="fab fa-facebook-f fa-fw fa-lg"></i>
                         </a>
-                        <a href="https://www.instagram.com/essence_yash_kothari/" target="_blank">
+                        <a href="https://www.instagram.com/essence_yash_kothari/" title="Instagram" target="_blank">
                             <i class="fab fa-instagram fa-fw fa-lg"></i>
                         </a>
-                        <a href="https://github.com/yashkothari1946" target="_blank">
+                        <a href="https://github.com/yashkothari1946" title="Github" target="_blank">
                             <i class="fab fa-github fa-fw fa-lg"></i>
+                        </a>
+                        <a href="https://twitter.com/yashkothari1946" title="Twitter" target="_blank">
+                            <i class="fab fa-twitter fa-fw fa-lg"></i>
                         </a>
                     </div>
                 </div>

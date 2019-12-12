@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <base href="https://yashk.info/">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" href="https://yashk.info/images/favicon.png">
+
+    <title>Yash Kothari - Panoptic Analytics</title>
+    <meta name="theme-color" content="#a57d24">
+    <link rel="canonical" href="https://yashk.info/panoptics" />
+
+    <!-- Apple META -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <link rel="apple-touch-icon" href="https://yashk.info/images/favicon.png">
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="https://yashk.info/images/favicon.png" type="image/x-icon">
+
+    <!-- Meta Tag -->
+    <meta name="keywords" content="Yash Kothari, Portfolio, Panoptic Analytics, Head of Software & IT" />
+    <meta name="description" content="Chief developer at Panoptic Analytics, being on the role my work precisely define the management of complete developer & technical ecosystem of the company. My work can be defined as Software Architect, technology selector, Innovator, digital influencer, and mentor in the firm.">
+    <meta property="og:title" content="Yash Kothari - Portfolio" />
+    <meta property="og:url" content="https://yashk.info/panoptics" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://yashk.info/images/logo.png" />
+    <meta property="og:site_name" content="Yash Kothari - Portfolio" />
+    <meta property="og:description" content="Chief developer at Panoptic Analytics, being on the role my work precisely define the management of complete developer & technical ecosystem of the company. My work can be defined as Software Architect, technology selector, Innovator, digital influencer, and mentor in the firm." />
+
+    <!--Structured Data-->
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Individual",
+          "name": "Yash Kothari",
+          "url": "https://yashk.info",
+          "logo": "https://yashk.info/images/logo.png",
+          "founders": [{
+            "@type": "Person",
+            "name": "Yash Kothari"
+          }],
+          "page" : "Panoptic Analytics",          
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Udaipur",
+            "postalCode": "313001",
+            "addressCountry": "India"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Personal",
+            "telephone": "[+91(911)656-0069]",
+            "email": "me@yashk.info"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/yashkothari1946" 
+            "https://www.facebook.com/ykhothari"
+            "https://www.instagram.com/essence_yash_kothari/"
+            "https://github.com/yashkothari1946"
+            "https://twitter.com/yashkothari1946"
+          ]
+        }
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154352962-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-154352962-1');
+    </script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fc-gradient" href="/" title="Yash Logo">
+                <img src="https://yashk.info/images/logo.svg" alt="Yash Logo" title="Yash Logo" class="logo">Yash Kothari
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/" title="Home">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#about" title="about">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#skills" title="skills">
+                            Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#career" title="career">
+                            Career
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#testimonials" title="testimonials">
+                            Testimonials
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" title="Contact Us">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md text-center">
+                    <h5 class="mb-3">My work at</h5>
+                    <h1 class="mb-3 fc-gradient ft-secondary display-4">Panoptic Analytics</h1>
+                    <h5 class="mb-5">as the <span class="mb-3 fc-gradient">Head of Software and IT</span>
+                    </h5>
+
+                    <div class="hero-social-icons">
+                        <a href="http://www.panopticanalytics.com/" target="_blank" title="Panoptic Analytics">
+                            <i class="fas fa-globe"></i>&ensp;http://www.panopticanalytics.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-down-line"></div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md order-2 order-md-1">
+                    <h4 class="section-heading-small">Overview</h4>
+                    <br>
+
+                    <p class="rw-75">
+                        Chief developer at Panoptic Analytics, being on the role my work precisely define the management of complete developer & technical ecosystem of the company. My work can be defined as Software Architect, technology selector, Innovator, digital influencer, and mentor in the firm.
+                    </p>
+
+                    <p class="rw-75">
+                        I work with the management team on innovative ideas and marketing strategies (feature building strategies) that uplifts our company business. I design the architecture of the system in a way that helps understand the system to its users in less possible efforts. My work with my dev teams is to guide them on the correct direction for creating a system with maximum features.
+                    </p>
+
+                    <p class="rw-75">
+                        <span class="mb-3 fc-gradient">Gain?</span><br>
+                        We have startup work-culture in our office which is very progressive as the focus is more on output. "People love to work with you if their work is greatly honored and recognized."
+                    </p>
+                </div>
+                <div class="col-md-4 order-1 order-md-2">
+                    <img src="https://d3dwiffp75462i.cloudfront.net/brand/logo.svg" title="Panoptic Analytics image" alt="Panoptic Analytics image" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dark-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md order-2 order-md-1 text-center">
+                    <h4 class="section-heading-big">Products & Solutions</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md order-2 order-md-1">
+                    <h2 class="section-heading-big mb-5">ExploreBit</h2>
+
+                    <p class="rw-75">
+                        <a href="https://www.explorebit.io/" target="_blank" title="ExploreBit">
+                            <i class="fas fa-globe"></i>&ensp;https://www.explorebit.io/
+                        </a>
+                    </p>
+
+                    <p class="rw-75">
+                        ExploreBit is a unique platform that accumulates all significant datapoints related to the startups and investors across all industries and geographies. This huge stack of information is classified and presented to discover latest investments or funding, strategic moves, trends and news of the ever growing startup ecosystem across the globe.
+                    </p>
+                </div>
+                <div class="col-md-4 order-1 order-md-2">
+                    <img src="https://d1rmk0xx0lkdfu.cloudfront.net/logo-sideLabel.svg" title="ExploreBit" alt="ExploreBit image" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dark-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md order-2 order-md-1">
+                    <h2 class="section-heading-big mb-5">Seemly</h2>
+
+                    <p class="rw-75">
+                        <a href="https://www.seemly.io/" target="_blank" title="Seemly">
+                            <i class="fas fa-globe"></i>&ensp;https://www.seemly.io/
+                        </a>
+                    </p>
+
+                    <p class="rw-75">
+                        Sales intelligrent platform, Seemly generates the most reliable and trusted source of lead generation system. 
+                    </p>
+                </div>
+                <div class="col-md-4 order-1 order-md-2">
+                    <img src="https://dtbsnrdlrd85z.cloudfront.nehttps://yashk.info/images/logo.svg" title="Seemly image" alt="Seemly image" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md order-2 order-md-1">
+                    <h2 class="section-heading-big mb-5">Aseemly</h2>
+
+                    <p class="rw-75">
+                        In house software, used for researching and quality assurance of the data. Aseemly is also used for monitoring over all the other platforms and it's users. It also has it's use for the sales team to deliver user requirements at the earliest.
+                    </p>
+                </div>
+                <div class="col-md-4 order-1 order-md-2">
+                    <img src="https://d2osy5yseqwcwy.cloudfront.nehttps://yashk.info/images/aseemly-top-label.svg" title="Aseemly image" alt="Aseemly image" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md text-center">
+                    <h4 class="section-heading-big">Have something to discuss?</h4>
+                    <br>
+                    <h2 class="section-heading-big mb-0">Let's talk...</h2>
+
+                    <br>
+                    <br>
+                    <a href="mailto:me@yashk.info" title="Mail Me">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md">
+                    <img src="https://yashk.info/images/logo.svg" title="Yash Logo" alt="Yash Logo" class="logo">
+                </div>
+                <div class="col-md text-center text-md-right">
+                    <div class="hero-social-icons">
+                        <a href="https://www.linkedin.com/in/yashkothari1946" title="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin-in fa-fw fa-lg"></i>
+                        </a>
+                        <a href="https://www.facebook.com/ykhothari" title="Facebook" target="_blank">
+                            <i class="fab fa-facebook-f fa-fw fa-lg"></i>
+                        </a>
+                        <a href="https://www.instagram.com/essence_yash_kothari/" title="Instagram" target="_blank">
+                            <i class="fab fa-instagram fa-fw fa-lg"></i>
+                        </a>
+                        <a href="https://github.com/yashkothari1946" title="Github" target="_blank">
+                            <i class="fab fa-github fa-fw fa-lg"></i>
+                        </a>
+                        <a href="https://twitter.com/yashkothari1946" title="Twitter" target="_blank">
+                            <i class="fab fa-twitter fa-fw fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./app.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5de93812d96992700fcaf105/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <base href="https://yashk.info/">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" href="https://yashk.info/images/favicon.png">
+
+    <title>Yash Kothari - Core Programmers</title>
+    <meta name="theme-color" content="#a57d24">
+    <link rel="canonical" href="https://yashk.info/coreProgrammers" />
+
+    <!-- Apple META -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <link rel="apple-touch-icon" href="https://yashk.info/images/favicon.png">
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="https://yashk.info/images/favicon.png" type="image/x-icon">
+
+    <!-- Meta Tag -->
+    <meta name="keywords" content="Yash Kothari, Portfolio, student worker intern, Core Programmers" />
+    <meta name="description" content=" My responsibilities were to study and research new technologies. I learned android and also worked in the field of Digital marketing.">
+    <meta property="og:title" content="Yash Kothari - Portfolio" />
+    <meta property="og:url" content="https://yashk.info/coreProgrammers" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://yashk.info/images/logo.png" />
+    <meta property="og:site_name" content="Yash Kothari - Portfolio" />
+    <meta property="og:description" content=" My responsibilities were to study and research new technologies. I learned android and also worked in the field of Digital marketing." />
+
+    <!--Structured Data-->
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Individual",
+          "name": "Yash Kothari",
+          "url": "https://yashk.info",
+          "logo": "https://yashk.info/images/logo.png",
+          "founders": [{
+            "@type": "Person",
+            "name": "Yash Kothari"
+          }],
+          "page" : "Core Programmers",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Udaipur",
+            "postalCode": "313001",
+            "addressCountry": "India"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Personal",
+            "telephone": "[+91(911)656-0069]",
+            "email": "me@yashk.info"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/yashkothari1946" 
+            "https://www.facebook.com/ykhothari"
+            "https://www.instagram.com/essence_yash_kothari/"
+            "https://github.com/yashkothari1946"
+            "https://twitter.com/yashkothari1946"
+          ]
+        }
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154352962-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-154352962-1');
+    </script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fc-gradient" href="/" title="Yash Logo">
+                <img src="https://yashk.info/images/logo.svg" alt="Yash Logo" title="Yash Logo" class="logo">Yash Kothari
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/" title="Home">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#about" title="about">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#skills" title="skills">
+                            Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#career" title="career">
+                            Career
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#testimonials" title="testimonials">
+                            Testimonials
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" title="Contact Us">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md text-center">
+                    <h5 class="mb-3">My work at</h5>
+                    <h1 class="mb-3 fc-gradient ft-secondary display-4">Core Programmers</h1>
+                    <h5 class="mb-5">as the <span class="mb-3 fc-gradient">student worker intern</span>
+                    </h5>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-down-line"></div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md order-2 order-md-1">
+                    <h4 class="section-heading-small">Overview</h4>
+                    <br>
+
+                    <p class="rw-75">
+                        My responsibilities were to study and research new technologies. I learned android and also worked in the field of Digital marketing.
+                    </p>
+                </div>
+                <div class="col-md-4 order-1 order-md-2">
+                    <img src="https://media.licdn.com/dms/image/C510BAQGxgyRyd1u4Cg/company-logo_200_200/0?e=1583971200&v=beta&t=a6ZnlAhsbXYB4mkY0E4b8hZSgJqmIej1iX5N78ZovmE" title="Core Programmers image" alt="Core Programmers image" class="w-75">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md text-center">
+                    <h4 class="section-heading-big">Have something to discuss?</h4>
+                    <br>
+                    <h2 class="section-heading-big mb-0">Let's talk...</h2>
+
+                    <br>
+                    <br>
+                    <a href="mailto:me@yashk.info" title="Mail Me">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md">
+                    <img src="https://yashk.info/images/logo.svg" title="Yash Logo" alt="Yash Logo" class="logo">
+                </div>
+                <div class="col-md text-center text-md-right">
+                    <div class="hero-social-icons">
+                        <a href="https://www.linkedin.com/in/yashkothari1946" title="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin-in fa-fw fa-lg"></i>
+                        </a>
+                        <a href="https://www.facebook.com/ykhothari" title="Facebook" target="_blank">
+                            <i class="fab fa-facebook-f fa-fw fa-lg"></i>
+                        </a>
+                        <a href="https://www.instagram.com/essence_yash_kothari/" title="Instagram" target="_blank">
+                            <i class="fab fa-instagram fa-fw fa-lg"></i>
+                        </a>
+                        <a href="https://github.com/yashkothari1946" title="Github" target="_blank">
+                            <i class="fab fa-github fa-fw fa-lg"></i>
+                        </a>
+                        <a href="https://twitter.com/yashkothari1946" title="Twitter" target="_blank">
+                            <i class="fab fa-twitter fa-fw fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./app.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5de93812d96992700fcaf105/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+
+</html>
