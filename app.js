@@ -52,15 +52,15 @@ $(document).ready(() => {
     });
 });
 
+// Event listener on hash Change
 window.addEventListener('hashchange', function () {
     let activeSectionName = window.location.hash.slice(1);
     activeSectionName = activeSectionName.charAt(0).toUpperCase() + activeSectionName.slice(1);
-
     $(`.navbar-nav li`).removeClass("active");
 
     if (!activeSectionName.length) {
         activeSectionName = "Home";
     }
-
+    
     $(`.navbar-nav li a:contains('${activeSectionName}')`).parent().addClass("active");
 }, false);
