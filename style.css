@@ -105,7 +105,7 @@ a {
   transition: 0.25s ease-out; }
 
 .hero {
-  background-image: url("./images/hero-bg.svg");
+  background-image: url("https://yashk.info/images/hero-bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -308,7 +308,7 @@ footer {
   .rw-100 {
     width: 100%; }
   .hero {
-    background-image: url("./images/hero-bg-mobile.svg");
+    background-image: url("https://yashk.info/images/hero-bg-mobile.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; }
